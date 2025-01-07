@@ -1,0 +1,26 @@
+:root {
+    --lc-name-color: #000;
+    --lc-desc-color: rgb(138, 138, 138);
+    --lc-url-color: rgb(62, 62, 62);
+    --lc-name-size: 24px;
+    --lc-desc-tab: 20px;
+    --lc-url-size: 14px;
+    --lc-height: 150px;
+    @media (max-width: 1024px) {
+        --lc-name-size: 20px;
+    }
+    @media (max-width: 1024px) {
+        --lc-desc-tab: 10px;
+    }
+    @media (max-width: 1024px) {
+        --lc-url-size: 10px;
+    }
+    @media (max-width: 1024px) {
+        --lc-height: 130px;
+    }
+    &[data-scheme="dark"] {
+        --lc-name-color: #e5e5e5;
+        --lc-desc-color: rgba(140, 140, 140, 0.9);
+        --lc-url-color: #e5e5e5;
+    }
+}
